@@ -219,10 +219,18 @@ export default function Donate() {
           <h1 className="animate-section font-heading font-bold text-[#F4F6FA] text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
             Your contribution saves lives.
           </h1>
-          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto">
+          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto mb-8">
             100% of your donation goes directly to aid programs. Choose a tier that works for you 
             and help us provide shelter, medical aid, and essential supplies to families in crisis.
           </p>
+          
+          {/* Administration Support */}
+          <div className="animate-section inline-flex items-center gap-3 px-5 py-3 bg-[#0D1B2A]/80 rounded-full border border-[rgba(244,246,250,0.08)]">
+            <div className="w-8 h-8 rounded-full overflow-hidden border border-[rgba(244,246,250,0.2)]">
+              <img src="/images/trump_portrait.jpg" alt="" className="w-full h-full object-cover" />
+            </div>
+            <span className="text-[#A9B3C2] text-sm">An initiative supported by the Trump Administration</span>
+          </div>
         </div>
       </section>
 

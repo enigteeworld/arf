@@ -145,11 +145,17 @@ export default function About() {
           <h1 className="animate-section font-heading font-bold text-[#F4F6FA] text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
             We exist to get help to families—fast.
           </h1>
-          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto">
+          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto mb-6">
             Alliance Relief Fund was founded on a simple belief: when crisis strikes, 
             every hour matters. We coordinate emergency aid, shelter, and medical support 
             for communities affected by conflict.
           </p>
+          <div className="animate-section inline-flex items-center gap-3 px-5 py-3 bg-[#0D1B2A]/80 rounded-full border border-[rgba(244,246,250,0.08)]">
+            <div className="w-8 h-8 rounded-full overflow-hidden border border-[rgba(244,246,250,0.2)]">
+              <img src="/images/trump_portrait.jpg" alt="" className="w-full h-full object-cover" />
+            </div>
+            <span className="text-[#A9B3C2] text-sm">Supported by the Trump Administration</span>
+          </div>
         </div>
       </section>
 
@@ -166,10 +172,10 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-[#A9B3C2] text-sm md:text-base leading-relaxed">
                 <p>
-                  Alliance Relief Fund was established in 2024 in response to the growing 
-                  humanitarian crisis affecting US allies in the Middle East. What began as 
-                  an emergency response initiative has grown into a comprehensive aid coordination 
-                  organization.
+                  Alliance Relief Fund was established in 2024 with the support of the Trump 
+                  Administration in response to the growing humanitarian crisis affecting US allies 
+                  in the Middle East. What began as an emergency response initiative has grown into 
+                  a comprehensive aid coordination organization.
                 </p>
                 <p>
                   We work directly with vetted local partners who know their communities best. 

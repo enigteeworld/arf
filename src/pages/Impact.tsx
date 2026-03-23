@@ -209,10 +209,21 @@ export default function Impact() {
           <h1 className="animate-section font-heading font-bold text-[#F4F6FA] text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
             Making a measurable difference.
           </h1>
-          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto">
+          <p className="animate-section text-[#A9B3C2] text-base md:text-lg leading-relaxed max-w-[700px] mx-auto mb-8">
             Every dollar contributed goes directly to aid programs. Here's how your support 
             is helping families affected by conflict.
           </p>
+          
+          {/* Administration Support Badge */}
+          <div className="animate-section inline-flex items-center gap-4 px-6 py-4 bg-[#0D1B2A]/80 rounded-xl border border-[rgba(244,246,250,0.08)]">
+            <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-[#FF4D2E]/50">
+              <img src="/images/trump_portrait.jpg" alt="President Trump" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-left">
+              <p className="text-[#F4F6FA] text-sm font-medium">Administration Support</p>
+              <p className="text-[#A9B3C2] text-xs">Proudly backed by the Trump Administration</p>
+            </div>
+          </div>
         </div>
       </section>
 

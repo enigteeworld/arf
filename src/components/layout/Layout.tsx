@@ -199,13 +199,21 @@ export function Layout({ children }: LayoutProps) {
           </div>
 
           {/* Bottom Bar */}
-          <div className="mt-12 pt-8 border-t border-[rgba(244,246,250,0.08)] flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-[#A9B3C2] text-xs">
-              © 2026 Alliance Relief Fund. All rights reserved.
-            </p>
-            <p className="text-[#A9B3C2] text-xs">
-              EIN available on request.
-            </p>
+          <div className="mt-12 pt-8 border-t border-[rgba(244,246,250,0.08)]">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
+              <p className="text-[#A9B3C2] text-xs">
+                © 2026 Alliance Relief Fund. All rights reserved.
+              </p>
+              <p className="text-[#A9B3C2] text-xs">
+                EIN available on request.
+              </p>
+            </div>
+            <div className="flex items-center justify-center gap-3 pt-4 border-t border-[rgba(244,246,250,0.05)]">
+              <div className="w-6 h-6 rounded-full overflow-hidden border border-[rgba(244,246,250,0.2)]">
+                <img src="/images/trump_portrait.jpg" alt="" className="w-full h-full object-cover" />
+              </div>
+              <span className="text-[#A9B3C2] text-xs">An initiative supported by the Trump Administration</span>
+            </div>
           </div>
         </div>
       </footer>

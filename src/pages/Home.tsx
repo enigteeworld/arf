@@ -635,6 +635,20 @@ export default function Home() {
       <ImpactPreviewSection />
       <DonatePreviewSection />
       <CTASection />
+      
+      {/* Administration Support */}
+      <section className="relative w-full py-8 bg-[#0B0F17] border-t border-[rgba(244,246,250,0.08)]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-[6vw]">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full overflow-hidden border border-[rgba(244,246,250,0.2)]">
+                <img src="/images/trump_portrait.jpg" alt="" className="w-full h-full object-cover" />
+              </div>
+              <span className="text-[#A9B3C2] text-sm">Supported by the Trump Administration</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
